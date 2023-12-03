@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em 0;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+      margin-bottom: 80px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+    .project-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .project {
+      flex: 0 0 48%; /* Adjust width as needed */
+      box-sizing: border-box;
+      margin-bottom: 20px;
+    }
+
+    .project img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>B M Aryaveer Gowda</h1>
+    <p>Engineering Undergraduate</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="aryaphoto.jpg" alt="myphoto">
+    <p>
+      I am an AIML student at RV College of Engineering.
+      <br>
+      I am passionate about coding and software.
+      <br>
+      My hobbies are football, reading and coding.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>C++</li>
+      <li>Java</li>
+      <li>JavaScript</li>
+      <li>React js</li>
+      <!-- Add more skills as needed -->
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-container">
+        <div class="project">
+          <img src="nft.png" alt="Project 1">
+          <h3>NFT minting Site</h3>
+          <p>A website to mint NFT's and store them on a cloud service</p>
+        </div>
+  
+        <div class="project">
+          <img src="poultry.jpeg" alt="Project 2">
+          <h3>Poultry management website</h3>
+          <p>A web application to store and manage information about birds,feed,stock etc.</p>
+        </div>
+      </div> 
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>Download my <a href="Resume.pdf" target="_blank" download>resume (PDF)</a>.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: bmaryaveerg.ai21@rvce.edu.in</p>
+    <p>Phone: +91 8971146022</p>
+  </section>
+
+  <footer>
+    &copy; 2023 B M Aryaveer | <a href="https://www.linkedin.com/in/b-m-aryaveer-gowda-374b0b285/">LinkedIn</a> | <a href="https://github.com/aryaveerg">GitHub</a>
+  </footer>
+
+</body>
+</html>
